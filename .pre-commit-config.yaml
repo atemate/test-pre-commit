@@ -5,5 +5,7 @@ repos:
     name: my-hook-name
     description: my-hook-description
     language: system
-    # files: 'run/generate.sh'
+    files: 'run/out'
+    types: [text]
+    always_run: true
     entry: ./run/generate.sh
