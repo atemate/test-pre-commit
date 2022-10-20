@@ -1,10 +1,10 @@
 repos:
 - repo: local
   hooks:
-  - id: my-hook
-    name: my-hook-name
+  - id: gen-files
+    name: Generate files
     language: system
-    files: 'run/out/.*'
+    # files: 'run/out/.*'
     require_serial: true
     always_run: true
     entry: ./run/generate.sh
