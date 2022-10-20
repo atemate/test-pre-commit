@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eu
+set -eux
 
 OUT_DIR=$(dirname ${BASH_SOURCE[0]})/out
 NUM_FILES=${NUM_FILES:-5}
