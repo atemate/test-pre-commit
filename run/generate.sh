@@ -12,4 +12,4 @@ for i in $(seq 1 $NUM_FILES); do
 done
 ls $OUT_DIR
 # git diff-index --exit-code HEAD -- $OUT_DIR
-git status --porcelain -- $OUT_DIR
+git status --porcelain --exit-code -- $OUT_DIR
