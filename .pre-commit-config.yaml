@@ -22,5 +22,5 @@ repos:
 - repo: https://github.com/jumanjihouse/pre-commit-hooks
   rev: 3.0.0
   hooks:
-#   - id: git-check  # Configure in .gitattributes
-  - id: git-dirty  # Configure in .gitignore
+  - id: git-check  # Configure in .gitattributes
+#   - id: git-dirty  # Configure in .gitignore
