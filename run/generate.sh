@@ -10,4 +10,4 @@ for i in $(seq 1 $NUM_FILES); do
     # echo "Writing $OUT_DIR/$i.txt"
     echo "text-$i" > $OUT_DIR/$i.txt
 done
-git diff-index --exit-code HEAD -- $OUT_DIR
+git diff-index --exit-code --quiet HEAD -- $OUT_DIR
