@@ -9,3 +9,13 @@ repos:
     # types: [text]
     always_run: true
     entry: ./run/generate.sh
+
+  - id: check-new-files
+    name: check-new-files
+    language: system
+    #files: 'run/out/.*'
+    require_serial: true
+    # types: [text]
+    always_run: true
+    entry: git
+    args: [diff-index, --exit-code, --name-status, HEAD, --, $OUT_DIR]
