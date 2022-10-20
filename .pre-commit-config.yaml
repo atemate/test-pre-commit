@@ -4,7 +4,6 @@ repos:
   - id: gen-files
     name: Generate files
     language: system
-    # files: 'run/out/.*'
     require_serial: true
     always_run: true
     entry: ./run/generate.sh
