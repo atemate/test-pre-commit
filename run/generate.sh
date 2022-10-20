@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eu
 
-OUT_DIR=$(dirname ${BASH_SOURCE[0]})/generated
+OUT_DIR=$(dirname ${BASH_SOURCE[0]})/out
 
 rm -rf $OUT_DIR
 mkdir $OUT_DIR
