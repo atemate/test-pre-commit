@@ -6,7 +6,6 @@ repos:
     language: system
     files: 'run/out/.*'
     require_serial: true
-    # types: [text]
     always_run: true
     entry: ./run/generate.sh
 
@@ -23,5 +22,5 @@ repos:
 - repo: https://github.com/jumanjihouse/pre-commit-hooks
   rev: 3.0.0
   hooks:
-  - id: git-check  # Configure in .gitattributes
+#   - id: git-check  # Configure in .gitattributes
   - id: git-dirty  # Configure in .gitignore
