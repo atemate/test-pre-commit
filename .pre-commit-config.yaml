@@ -4,7 +4,8 @@ repos:
   - id: my-hook
     name: my-hook-name
     language: system
-    files: 'run/out/'
+    files: 'run/out/.*'
+    require_serial: true
     # types: [text]
     always_run: true
     entry: ./run/generate.sh
