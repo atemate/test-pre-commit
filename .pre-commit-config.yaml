@@ -6,6 +6,6 @@ repos:
     description: my-hook-description
     language: system
     files: 'run/out'
-    types: [text]
+    # types: [text]
     always_run: true
     entry: ./run/generate.sh
