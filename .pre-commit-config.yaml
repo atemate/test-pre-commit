@@ -3,9 +3,8 @@ repos:
   hooks:
   - id: my-hook
     name: my-hook-name
-    description: my-hook-description
     language: system
     files: 'run/out'
     # types: [text]
-    always_run: true
+    # always_run: true
     entry: ./run/generate.sh
