@@ -5,5 +5,5 @@ repos:
     name: my-hook-name
     description: my-hook-description
     language: system
-    files: ''
+    files: './gen/generated/*.txt'
     entry: ./gen/generate.sh
